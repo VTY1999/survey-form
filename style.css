@@ -1,0 +1,93 @@
+ 
+   body, html {
+        height: 100%;
+      }
+      .big-image {
+          background-image: url("https://developers.google.com/community/dsc/images/dsc_hero.jpg");
+          filter: blur(8px);
+  -webkit-filter: blur(8px);
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+      }
+      .big-text {
+        color: white;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .big-input {
+        background-color: rgba(0,0,0, 0.4);
+        color: white;
+        font-weight: bold;
+        border: 0px solid #f1f1f1;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 60%;
+        padding: 20px;
+        text-align: center;
+        border-radius: 25px;
+      }
+      .input {
+          width: 60%;
+          height: 30px;
+          border: 0px solid;
+          box-shadow: 0 1px 13px -8px rgb(2, 0, 0);
+          border-radius: 25px;
+          margin-top: 20px;
+      }
+      .table {
+        margin-right: 450px;
+      }
+      p {
+        font-size: 25px;
+
+      }
+      .table2{
+        margin-right: 480px;
+      }
+      .table3{
+        margin-right: 485px;
+      }
+      .table4{
+        margin-right: 450px;
+      }
+      .table5 {
+        margin-right: 470px;
+      }
+      .table6 {
+        margin-right: 460px;
+      }
+      .input1 {
+        width: 60%;
+        height: 100px;
+        border: 0px solid;
+        box-shadow: 0 1px 13px -8px rgb(2, 0, 0);
+        border-radius: 25px;
+        margin-top: 5px;
+      }
+      .input2{
+        width: 60%;
+        height: 30px;
+        border: 0px solid;
+        box-shadow: 0 1px 13px -8px rgb(2, 0, 0);
+        border-radius: 25px;
+        margin-top: 5px;
+      }
+      .submit {
+        width: 60%;
+        height: 30px;
+        border: 0px solid;
+        background-color: rgb(0, 202, 252);
+        box-shadow: 0 1px 13px -8px rgb(2, 0, 0);
+        border-radius: 25px;
+        margin-top: 5px;
+        color: rgb(250, 250, 250);
+      }
